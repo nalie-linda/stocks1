@@ -1,5 +1,4 @@
 
-import sqlalchemy
 import sqlite3
 import pymysql
 import pandas as pd
