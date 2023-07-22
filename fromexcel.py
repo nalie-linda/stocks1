@@ -1,5 +1,5 @@
 
-import sqlalchemy
+# ORM using sqlalchemy orm. The data is loaded from a csv file
 import sqlite3
 import pymysql
 import pandas as pd
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     t = time()
 
     # create db
-    engine = create_engine('sqlite:///stockcsv_test.db')
+    engine = create_engine('sqlite:///stocks_test.db')
     Base.metadata.create_all(engine)
 
     #Create the session
